@@ -9,7 +9,7 @@ from fbprophet import Prophet
 
 # Load your time series dataset
 # Assuming the data has a 'Date' column and a 'Inventory_Valuation' column
-data = pd.read_csv('daily_inventory_valuation.csv', parse_dates=['Date'], index_col='Date')
+data = pd.read_csv('daily_inventory_valuation.csv', parse_dates=['Date'], index_col='Date') # Replace with the data file
 
 # Plot the data to visualize the time series
 plt.figure(figsize=(10, 6))
