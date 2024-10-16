@@ -24,12 +24,10 @@ Dataset
 2. Python libraries: pandas, numpy, matplotlib, statsmodels, scikit-learn, fbprophet.
 
 ## How to Run
-Clone the repository and download the dataset dummy_inventory_data.csv.
-## Run the Python script for time series forecasting:
-bash
-Copy code
+1. Clone the repository and download the dataset dummy_inventory_data.csv.
+2. Run the Python script for time series forecasting:
 python Time_Series_Forecasting_SARIMA_Prophet_Harshal_Gajera.py
-Modify and execute the SQL script for data extraction.
+3. Modify and execute the SQL script for data extraction.
 ## Experience
 Through this project, I developed forecasting models and SQL queries to streamline inventory monitoring, contributing to efficient supply chain management and decision-making.
 
